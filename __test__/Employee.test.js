@@ -1,3 +1,3 @@
-const Employee = require ('../Employee.js');
+const Employee = require ('../lib/Employee');
 
 
