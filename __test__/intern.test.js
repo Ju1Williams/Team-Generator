@@ -1,25 +1,25 @@
-const Engineer = require('../lib/engineer');
-const engineer = new Engineer('Sandra','1', 'sandrabullock@gmail','sandyb' );
+const Intern = require('../lib/intern');
+const intern = new Intern('Stacy','3', 'stacy@gmail','283-282-1111');
 
 describe("Engineer", () => {
     describe('name', ()=> {
         it('Get name', () => {
-            expect(engineer.name).toBe('Sandra')
+            expect(intern.name).toBe('Stacy')
         })
     });
     describe('id', ()=> {
         it('Get 2001', () => {
-            expect(engineer.id).toBe('1')
+            expect(intern.id).toBe('3')
         })
     });
     describe('email', ()=> {
         it('Get email', () => {
-            expect(engineer.email).toBe('sandrabullock@gmail')
+            expect(intern.email).toBe('stacy@gmail')
         })
     });
     describe('github', ()=> {
         it('Get github', () => {
-            expect(engineer.github).toBe('sandyb')
+            expect(intern.fax).toBe('283-282-1111')
         })
     });
 });
