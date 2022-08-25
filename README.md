@@ -15,9 +15,12 @@ Node.js command-line application that takes in information about employees on a 
 Built a Team Generator using the command line, Tested, created and appened the infomration to the index.html file to deploy
 
 # Images
-
-# Website Links
 ![](img/websiteTeam.png)
+# Website Links
+* https://github.com/Ju1Williams/Team-Generator.git
+* https://ju1williams.github.io/Team-Generator/
+
+
 
 ### Github
 
